@@ -1,0 +1,45 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{font-family: taoma; font-size: 16px;}
+ 
+.main{width: 1000px; padding: 0; margin-left: auto; margin-right: auto;}
+
+/* Banner */
+
+/* Menu */
+.head-link{ width: 1000px; height: 40px;  padding-left: 10px; padding-right: 10px; border: 1px solid #CDCDCD; background-color: #008091; margin-bottom:5px; clear: both; line-height: 40px;}
+.head-link ul li{list-style: none; float: left; }
+.head-link ul li a{text-decoration: none; color: white; display: block; font-size: 17px; padding: 0 20px; }
+.head-link ul li a:hover{background-color: #CDAD00;}
+.head-link ul b a{color: #e5cf86; font-family: taoma; font-size: 20px; float: left; text-decoration: none;}
+
+/* table */
+.left{width: 250px;  border: 1px solid #CDCDCD; float:left; margin-bottom: 5px;}
+.left table tr td{width: 250px; height: 50px; font-size: 18px;}
+.left b{font-size: 25px; color: #CDAD00;}
+.left table tr td a{text-decoration: none; color: white; margin-left: 20px;}
+
+/* Chính */
+.content{width: 745px; min-height: 465px; border: 1px solid #CDCDCD; float:left; margin-left: 5px;  margin-bottom: 5px;}
+.content table{text-align: center; width: 100%; font-size: 16px; border-color: #ccc;}
+.content a input{padding: 5px 10px; background-color: #CDAD00; color: #fff;}
+
+/* Footer */
+.footer2{width: 1000px;clear: both;background-color: #006b79;height: 480px; }
+
+.gioithieu{padding: 60px 60px;float: left; font-size: 15px;}
+
+.chinhsachcongty{float: left; color: white;padding: 60px 40px; font-size: 15px;}
+
+.trogiup{float: left;color: white; padding: 60px 40px; font-size: 15px;}
+
+.thongtinkhac{float: left;color: white;padding: 60px 40px; font-size: 15px;}
+
+.duoihr{float: left;color: white; font-size: 14px; margin-top: 15px; padding: 0 80px;}
+
+.logomxh{padding: 50px 120px;float: left;}
+
+/*---nhà phân phối---*/
+
+.nhaphanphoi{width: 600px;margin-left: auto;margin-right: auto;}
+

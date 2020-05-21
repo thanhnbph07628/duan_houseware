@@ -1,0 +1,92 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{font-family: taoma; font-size: 12px;}
+ 
+.main{width: 1000px; padding: 0; margin-left: auto; margin-right: auto;}
+
+/* Banner */
+.banner{height: 460px; background-color: #F5F5F5; border: 1px solid #CDCDCD; margin-bottom:5px; background-image: url('../images/banner2.jpg'); background-size: 100%;}
+.banner input{border-radius: 20px; padding: 10px 20px; margin-top: 50px; font-size: 15px; margin-left: 100px; background-color: #CDAD00; color: white;}
+.banner h1{color: white; margin-top: 120px; font-family: taoma; margin-left: 100px;}
+
+/* Menu */
+.head-link{ width: 1000px; height: 40px;  padding-left: 10px; padding-right: 10px; border: 1px solid #CDCDCD; background-color: #008091; margin-bottom:5px; clear: both; line-height: 40px; position: fixed; z-index: 12;}
+.head-link ul li{list-style: none; float: left; }
+.head-link ul li a{text-decoration: none; color: white; display: block; font-size: 17px; padding: 0 20px; }
+.head-link ul li a:hover{background-color: #CDAD00;}
+.head-link ul b a{color: #e5cf86; font-family: taoma; font-size: 20px; float: left; text-decoration: none;}
+.timkiem{float: right; margin-top: -1px;}
+.timkiem input{border-radius: 20px; padding: 3px 5px; width: 150px;}
+.timkiem button{border-radius: 20px; padding: 3px 8px; background-color: #CDAD00; color: #fff;}
+
+/*Chính*/
+.content{width: 1000px; min-height: 700px; border: 1px solid #CDCDCD; float:left;  margin-bottom: 5px;}
+.content h1{text-align: center; margin-top: 20px; color: #CDAD00; font-size: 30px;}
+
+		.slide img:hover{
+			transform:scale(1.4);
+			transition: 1.2s;
+		}
+
+		.slide img{
+			margin-top: 90px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.slide{
+		text-align: center;
+		width: 950px;		
+		height: 520px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		position: relative;
+		}
+		.nuttrai{
+			position: absolute;
+			left:20px;
+			top: 170px;
+			min-width: 60px;
+			line-height: 2em;
+			background-color:#CDAD00 ;
+		}
+
+		.nutphai{
+			position: absolute;
+			right:20px;
+			top: 170px;
+			min-width: 60px;
+			line-height: 2em;
+			background-color:#CDAD00 ;
+		}
+
+
+/* Footer */
+.footer2{width: 1000px;clear: both;background-color: #006b79;height: 480px; margin-left: auto; margin-right: auto;}
+
+.gioithieu{padding: 60px 60px;float: left; font-size: 15px;}
+
+.chinhsachcongty{float: left; color: white;padding: 60px 40px; font-size: 15px;}
+
+.trogiup{float: left;color: white; padding: 60px 40px; font-size: 15px;}
+
+.thongtinkhac{float: left;color: white;padding: 60px 40px; font-size: 15px;}
+
+.duoihr{float: left;color: white; font-size: 14px; margin-top: 15px; padding: 0 80px;}
+
+.logomxh{padding: 50px 120px;float: left;}
+
+/*---nhà phân phối---*/
+
+.nhaphanphoi{width: 600px;margin-left: auto;margin-right: auto;}
+
+.head-link ul li ul{
+	background-color: #006b79;
+	display: none;
+	position: relative;
+}
+ .tintuc:hover ul{
+	display: block;
+	position: absolute;
+	z-index: 99;
+}

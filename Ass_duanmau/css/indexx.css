@@ -1,0 +1,205 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{font-family: taoma; font-size: 12px;}
+ 
+.main{width: 1348px; padding: 0; margin-left: auto; margin-right: auto;}
+
+/* Banner */
+.mySlides {display:none; height: 400px;}
+
+/* Menu */
+.head-link{ width: 1348px; height: 40px;  padding-left: 10px; padding-right: 10px; border: 1px solid #CDCDCD; background-color: #008091; margin-bottom:5px; clear: both; line-height: 40px; position: fixed; z-index: 12;}
+.head-link ul li{list-style: none; float: left; }
+.head-link ul li a{text-decoration: none; color: white; display: block; font-size: 17px; padding: 0 20px; }
+.head-link ul li a:hover{background-color: #CDAD00;}
+.head-link ul b a{color: #e5cf86; font-family: taoma; font-size: 20px; float: left; text-decoration: none; margin-left: 80px;}
+.timkiem{float: left; margin-top: -1px; margin-left: 70px;}
+.timkiem input{ padding: 3px 5px; width: 350px; border: 1px solid #fff; float: left; margin-left: 10px; margin-top: 2px; height: 30px; margin-top: 5px;}
+.timkiem button{ padding: 3px 8px; background-color: #CDAD00; color: #fff;}
+.timkiem p{float: right; margin-left: 10px; margin-top: -1px;}
+.timkiem p button{height: 30px;}
+.timkiem p button p{margin-top: -8px; margin-left: 0px;}
+
+/* Chính */
+.content{width: 100%; min-height: 750px; border: 1px solid #CDCDCD; float:left;  margin-right: 5px; margin-bottom: 15px;}
+
+/*bên trái*/
+.content-left{background-color: #fff; width: 270px;  float: left; margin-right: 50px;}
+
+.nav {
+    margin: 0 auto;
+    width: 270px;
+    height: 200px;
+    background: #fff;
+    border-radius: 5px; 
+    text-align: center;
+    padding-top: 1px;
+    box-shadow: 0 0 10px rgba(0,0,0, .5);
+  
+}
+
+.username {
+    border: 1px solid #a6a6a6;
+    width: 230px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 25px;
+    padding-left: 9px;
+    color: #6c6c6c;
+    background: #fcfcfc;
+    outline: none;
+}
+
+.password {
+    border: 1px solid #a6a6a6;
+    width: 230px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 5px;
+  	margin-right: 3px;
+    padding-left: 9px;
+    color: #6c6c6c;
+    background: #fcfcfc;
+    outline: none;
+}
+
+.password:hover, .username:hover {
+    box-shadow: 0 0 10px rgba(178,34,34, 1); 
+    border: 1px #b22222  solid ;
+}
+
+.password:focus, .username:focus, .button:focus, .button:hover:focus{
+    box-shadow: 0 0 10px rgba(178,34,34, 1); 
+    border: 1px #b22222  solid ;
+}
+
+.button {
+  color:#fff;
+  font-size:20px;
+    border: 1px solid #a6a6a6;
+    width: 243px;
+    height: 43px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 6px;
+    outline: none;
+  background: rgb(255,48,25); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgb(255,48,25) 0%, rgb(207,4,4) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,48,25)), color-stop(100%,rgb(207,4,4))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgb(255,48,25) 0%,rgb(207,4,4) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgb(255,48,25) 0%,rgb(207,4,4) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgb(255,48,25) 0%,rgb(207,4,4) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgb(255,48,25) 0%,rgb(207,4,4) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+
+  
+.button:hover{
+    background: rgb(204,0,0); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgb(204,0,0) 0%, rgb(204,0,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(204,0,0)), color-stop(100%,rgb(204,0,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgb(204,0,0) 0%,rgb(204,0,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgb(204,0,0) 0%,rgb(204,0,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgb(204,0,0) 0%,rgb(204,0,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgb(204,0,0) 0%,rgb(204,0,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#cc0000',GradientType=0 ); /* IE6-9 */
+}
+  
+label {
+  position: relative;
+  top: 5px;
+  margin-right: 115px;
+}
+label span {
+  margin-left: 5px;
+  font-size:14px;
+}
+
+.danhmuc td{border-bottom: 1px solid grey; }
+.danhmuc h1{ margin-top: 20px; margin-left: 10px; color: #CDAD00;}
+.danhmuc table{width: 270px; height: 200px; margin-top: 15px; border: 1px solid grey;}
+.danhmuc table tr td a{text-decoration: none; color: black; font-size: 18px; margin-left: 20px;}
+.danhmuc tr td:hover{background-color: #CDAD00;}
+.danhmuc table tr td a:hover{color: #fff;}
+.spnoibat td{border-bottom: 1px solid grey; }
+.spnoibat h1{margin-top: 20px; margin-left: 10px; color: #CDAD00;}
+.spnoibat table{width: 270px; height: 250px; margin-top: 15px; border: 1px solid grey;}
+.spnoibat table tr td a{text-decoration: none;}
+.spnoibat table tr td:hover{background-color: #CDAD00;}
+.spnoibat table tr td a p:hover{color: #fff;}
+.spnoibat table tr td a p{text-decoration: none; color: black; font-size: 18px; margin-left: 80px; margin-top:10px;}
+.spnoibat table tr td a img{float: left; margin-left: 20px;}
+
+.content-right{width: 1000px; background-color: #fff; float: left; border: 1px solid #ccc;}
+
+/* Sản phẩm  */
+.spm h1{margin-top: 10px; margin-left: 10px; color: #CDAD00; font-size: 30px;}
+.sp1{margin-left: 24px;width: 220px; height:385px  ; border-radius: 10px; margin-top: 15px; padding: 10px 10px; border: 1px solid #ccc;float: left; text-align: center;}
+.sp1 b{font-size: 18px;}
+.sp1 a b{clear: both;margin-left: 25px; float: left;}
+.sp1 a{text-decoration: none; color: black; }
+.sp1 p{margin-top: 10px; font-size: 19px; color: red; float: left; clear: both;margin-left: 25px}
+.sp1 button{margin-top: 7px; padding: 3px 8px; background-color: #008091; color: #fff; }
+.sp1 button:hover{color: black;}
+.sp1 del{float: left; margin-top: 10px; font-size: 18px; margin-left: 18px; color: grey; clear: both;margin-left: 25px}
+
+.sp2{margin-left: 22px;width: 220px;  border-radius: 10px; margin-top: 15px; padding: 10px 10px; border: 1px solid #ccc; float: left; text-align: center;}
+.sp2 b{font-size: 18px;}
+.sp2 a{text-decoration: none; color: black;}
+.sp2 p{margin-top: 10px; font-size: 20px; color: red; float: left; }
+.sp2 button{margin-top: 7px; padding: 3px 8px; background-color: #008091; color: #fff;}
+.sp2 button:hover{color: black;}
+.sp2 del{float: left; margin-top: 10px; font-size: 20px; margin-left: 18px; color: grey;}
+
+.sp3{margin-left: 22px;width: 220px;  border-radius: 10px; margin-top: 15px; padding: 10px 10px; border: 1px solid #ccc; float: left; text-align: center;}
+.sp3 b{font-size: 18px;}
+.sp3 a{text-decoration: none; color: black;}
+.sp3 p{margin-top: 10px; font-size: 20px; color: red; float: left;}
+.sp3 button{margin-top: 7px; padding: 3px 8px; background-color: #008091; color: #fff;}
+.sp3 button:hover{color: black;}
+.sp3 del{float: left; margin-top: 10px; font-size: 20px; margin-left: 18px; color: grey;}
+
+.sp4{margin-left: 22px;width: 220px;  border-radius: 10px; margin-top: 15px; padding: 10px 10px; border: 1px solid #ccc; float: left; text-align: center;}
+.sp4 b{font-size: 18px;}
+.sp4 a{text-decoration: none; color: black;}
+.sp4 p{margin-top: 10px; font-size: 20px; color: red; float: left;}
+.sp4 button{margin-top: 7px; padding: 3px 8px; background-color: #008091; color: #fff;}
+.sp4 button:hover{color: black;}
+.sp4 del{float: left; margin-top: 10px; font-size: 20px; margin-left: 18px; color: grey;}
+
+
+/* Footer */
+.footer2{width: 1348px;clear: both;background-color: #006b79;height: 480px; }
+
+.gioithieu{padding: 60px 60px;float: left; font-size: 15px;}
+
+.chinhsachcongty{float: left; color: white;padding: 60px 40px; font-size: 15px;}
+
+.trogiup{float: left;color: white; padding: 60px 40px; font-size: 15px;}
+
+.thongtinkhac{float: left;color: white;padding: 60px 40px; font-size: 15px;}
+
+.duoihr{float: left;color: white; font-size: 14px; margin-top: 15px; padding: 0 80px;}
+
+.logomxh{padding: 50px 120px;float: left;}
+
+/*---nhà phân phối---*/
+
+.nhaphanphoi{width: 600px;margin-left: auto;margin-right: auto;}
+ 
+.head-link ul li ul{
+	background-color: #006b79;
+	display: none;
+	position: relative;
+}
+ .tintuc:hover ul{
+	display: block;
+	position: absolute;
+	z-index: 99;
+}
+
+#use label b{margin-left: -370px; font-size: 18px;}
+#use input{margin-top: 15px;}
+#use button{font-size: 18px;}
+
+#cancel button{margin-right: 350px;}
